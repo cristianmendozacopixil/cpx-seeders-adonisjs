@@ -1,18 +1,35 @@
 {
-  "name": "@cpxproject/seeders",
+  "name": "@cpxproject/seeders-adonisjs",
   "version": "1.0.0",
   "description": "Run your seeders like migrations: once, safely, and tracked.",
-  "main": "build/index.js",
-  "type": "module",
-  "types": "./build/index.d.ts",
-  "files": [
-    "build"
+  "keywords": [
+    "adonisjs",
+    "adonisjs-v6",
+    "seeders",
+    "database",
+    "migrations"
   ],
+  "homepage": "https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs#readme",
+  "bugs": {
+    "url": "https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristianmendozacopixil/cpx-seeders-adonisjs.git"
+  },
+  "license": "MIT",
+  "author": "Cristian Mendoza <khris.cmd@gmail.com>",
+  "type": "module",
   "exports": {
     ".": "./build/index.js",
     "./commands": "./build/src/commands/main.js",
     "./configure": "./build/configure.js"
   },
+  "main": "build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build"
+  ],
   "scripts": {
     "build": "npm run clean && tsc && npm run index:commands && npm run copy:stubs",
     "clean": "rm -rf build",
@@ -25,25 +42,11 @@
     "@adonisjs/core": "^6.18.0",
     "@adonisjs/lucid": "^21.6.1",
     "@adonisjs/tsconfig": "^1.4.0",
-    "adonis-kit": "^1.1.0",
+    "@types/node": "^25.6.0",
     "typescript": "~5.8"
   },
   "peerDependencies": {
     "@adonisjs/core": "^6.18.0",
     "@adonisjs/lucid": "^21.6.1"
-  },
-  "author": "Your Name <your.email@example.com>",
-  "license": "MIT",
-  "homepage": "https://github.com/your-username/cpx-seeders-adonisjs#readme",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/your-username/cpx-seeders-adonisjs.git"
-  },
-  "keywords": [
-    "adonisjs",
-    "adonisjs-v6",
-    "seeders",
-    "database",
-    "migrations"
-  ]
+  }
 }

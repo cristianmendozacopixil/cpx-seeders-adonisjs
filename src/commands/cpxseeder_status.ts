@@ -1,5 +1,4 @@
 import fs from 'node:fs'
-import path from 'node:path'
 
 import { BaseCommand } from '@adonisjs/core/ace'
 import type { CommandOptions } from '@adonisjs/core/types/ace'

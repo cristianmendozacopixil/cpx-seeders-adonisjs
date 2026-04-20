@@ -1,6 +1,6 @@
-# @cpxproject/seeders
+# @cpxproject/seeders-adonisjs
 
-Run your database seeders like migrations in AdonisJS v6. Once, safely, and tracked.
+Run your database seeders like migrations in [AdonisJS v6](https://adonisjs.com/). Once, safely, and tracked.
 
 ## Features
 - **One-time execution**: Just like migrations, seeders are tracked in a database table.
@@ -10,13 +10,13 @@ Run your database seeders like migrations in AdonisJS v6. Once, safely, and trac
 ## Installation
 
 ```bash
-npm install @cpxproject/seeders
+npm install @cpxproject/seeders-adonisjs
 ```
 
 After installation, configure the package:
 
 ```bash
-node ace configure @cpxproject/seeders
+node ace configure @cpxproject/seeders-adonisjs
 ```
 
 Then, run the install command to create the tracking table:

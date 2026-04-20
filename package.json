@@ -1,6 +1,6 @@
 {
   "name": "@cpxproject/seeders-adonisjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run your seeders like migrations: once, safely, and tracked.",
   "keywords": [
     "adonisjs",

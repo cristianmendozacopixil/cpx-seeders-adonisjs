@@ -1,6 +1,6 @@
 # @cpxproject/seeders-adonisjs
 
-Run your database seeders like migrations in [AdonisJS v6](https://adonisjs.com/). Once, safely, and tracked.
+Run your database seeders like migrations in [AdonisJS v6 and v7](https://adonisjs.com/). Once, safely, and tracked.
 
 ## Features
 - **One-time execution**: Just like migrations, seeders are tracked in a database table.

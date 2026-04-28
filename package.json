@@ -1,10 +1,11 @@
 {
   "name": "@cpxproject/seeders-adonisjs",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Run your seeders like migrations: once, safely, and tracked.",
   "keywords": [
     "adonisjs",
     "adonisjs-v6",
+    "adonisjs-v7",
     "seeders",
     "database",
     "migrations"
@@ -38,15 +39,15 @@
     "prepublishOnly": "npm run build"
   },
   "devDependencies": {
-    "@adonisjs/assembler": "^7.8.2",
-    "@adonisjs/core": "^6.18.0",
-    "@adonisjs/lucid": "^21.6.1",
+    "@adonisjs/assembler": "^7.8.2 || ^8.0.0",
+    "@adonisjs/core": "^6.18.0 || ^7.0.0",
+    "@adonisjs/lucid": "^21.6.1 || ^22.0.0",
     "@adonisjs/tsconfig": "^1.4.0",
     "@types/node": "^25.6.0",
     "typescript": "~5.8"
   },
   "peerDependencies": {
-    "@adonisjs/core": "^6.18.0",
-    "@adonisjs/lucid": "^21.6.1"
+    "@adonisjs/core": "^6.18.0 || ^7.0.0",
+    "@adonisjs/lucid": "^21.6.1 || ^22.0.0"
   }
 }

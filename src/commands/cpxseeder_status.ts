@@ -24,7 +24,7 @@ export default class CpxSeederStatusCommand extends BaseCommand {
       this.logger.info('No seeders found.')
       return
     }
-    const files = fs.readdirSync(dir)
+    const files = fs.readdirSync(dir).filter(file => !file.endsWith('.map'))
 
     //Get seeders already executed
     const rows = await db.from('cpx_seeders').select('name')

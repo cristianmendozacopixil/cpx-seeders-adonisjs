@@ -27,7 +27,7 @@ export default class CpxSeederFreshCommand extends BaseCommand {
       this.logger.info('No seeders found to run.')
       return
     }
-    const files = fs.readdirSync(dir)
+    const files = fs.readdirSync(dir).filter(file => !file.endsWith('.map'))
 
     if (this.force) {
       //Get all tables
